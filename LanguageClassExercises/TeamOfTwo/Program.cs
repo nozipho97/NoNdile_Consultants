@@ -14,6 +14,9 @@ namespace TeamOfTwo
 
 
             Console.WriteLine($"The amount of words in the sentence is {numberWords} ");
+
+            int numberOfLetters = LanguageFunctions.GetLetersInSentence(sentence);
+            Console.WriteLine($"The amount of words in the sentence is {numberOfLetters} ");
         }
     }
 }

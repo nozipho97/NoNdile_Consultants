@@ -8,6 +8,11 @@ namespace TeamOfTwo
 {
     internal class LanguageFunctions
     {
+        public int GetLetersInSentence(string sentence)
+        {
+            return sentence.Length;
+        }
+
         public int GetWordCountInSentence(string sentence)
 
         {
